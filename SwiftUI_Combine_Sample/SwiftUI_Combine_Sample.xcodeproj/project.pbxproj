@@ -17,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E16542927B3414000E86E51 /* CompactMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CompactMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E16542A27B3445100E86E51 /* CombineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0E2A1F5C270C15F30015CA58 /* SwiftUI_Combine_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Combine_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2A1F5F270C15F30015CA58 /* SwiftUI_Combine_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Combine_SampleApp.swift; sourceTree = "<group>"; };
 		0E2A1F61270C15F30015CA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +27,12 @@
 		0E2A1F73270C21C80015CA58 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		0E2A1F75270C240C0015CA58 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		0E2A1F77270C2D1E0015CA58 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		0E54C06527B2124700542DA6 /* Publisher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Publisher.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E54C06627B216B400542DA6 /* CurrentValueSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CurrentValueSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E54C0A527B3373B00542DA6 /* EraseToAnyPublisher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EraseToAnyPublisher.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E54C0A627B3380900542DA6 /* Published.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Published.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E54C0A927B339EA00542DA6 /* Binding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Binding.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E54C0AA27B33D7D00542DA6 /* Map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 		0E2A1F5E270C15F30015CA58 /* SwiftUI_Combine_Sample */ = {
 			isa = PBXGroup;
 			children = (
+				0E54C06427B2123500542DA6 /* Playground */,
 				0E2A1F72270C1E330015CA58 /* Servieces */,
 				0E2A1F71270C1E2C0015CA58 /* Models */,
 				0E2A1F70270C1E260015CA58 /* Views */,
@@ -114,6 +123,37 @@
 				0E2A1F75270C240C0015CA58 /* Service.swift */,
 			);
 			path = Servieces;
+			sourceTree = "<group>";
+		};
+		0E54C06427B2123500542DA6 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				0E54C0A827B339DB00542DA6 /* Operator */,
+				0E54C0A727B339CD00542DA6 /* Publisher */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		0E54C0A727B339CD00542DA6 /* Publisher */ = {
+			isa = PBXGroup;
+			children = (
+				0E54C06527B2124700542DA6 /* Publisher.playground */,
+				0E54C06627B216B400542DA6 /* CurrentValueSubject.playground */,
+				0E54C0A527B3373B00542DA6 /* EraseToAnyPublisher.playground */,
+				0E54C0A627B3380900542DA6 /* Published.playground */,
+			);
+			path = Publisher;
+			sourceTree = "<group>";
+		};
+		0E54C0A827B339DB00542DA6 /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				0E54C0A927B339EA00542DA6 /* Binding.playground */,
+				0E54C0AA27B33D7D00542DA6 /* Map.playground */,
+				0E16542927B3414000E86E51 /* CompactMap.playground */,
+				0E16542A27B3445100E86E51 /* CombineLatest.playground */,
+			);
+			path = Operator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
